@@ -1,12 +1,14 @@
 
 import './App.css';
-
+import SliderImg from './components/SliderImg.componenet'
 function App() {
+
   return (
     <div className="App">
-      <h1> Hollllla Amigooos</h1>
+      <SliderImg />
     </div>
   );
 }
 
 export default App;
+
