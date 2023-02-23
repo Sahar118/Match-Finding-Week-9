@@ -13,24 +13,17 @@ const SliderImg = () => {
 
     const Func1 = () => {
         if (randomObject.answer === true) {
-            console.log(randomObject.answer);
             setTrueAnswer((prev) => prev = prev + 1)
         } else {
             (setFalseAnswer((prev) => prev = prev + 1));
-            console.log(randomObject.answer);
         }
     };
 
     const Func2 = () => {
         if (randomObject.answer === false) {
             (setTrueAnswer((prev) => prev = prev + 1))
-            console.log(randomObject.answer);
-
-
         } else {
             (setFalseAnswer((prev) => prev = prev + 1))
-            console.log(randomObject.answer);
-
         }
 
     };
